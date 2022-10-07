@@ -1,0 +1,83 @@
+body {
+  min-width: 200px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Roboto Condensed, sans-serif;
+  font-weight: 700;
+}
+
+.section-pad {
+  padding: 3rem;
+}
+
+.section-header {
+  height: 173px;
+}
+
+.intro-section {
+  /* height: 173px; */
+  width: 100%;
+}
+
+.top-section-left {
+  height: 660px;
+  padding: 2rem;
+  background-image: url(../img/hero-mobile2-1024x731.jpg);
+  background-size: 100%;
+  background-position: center;
+}
+
+.topsection-right {
+  height: 330px;
+}
+
+/* .section-medlemmar {
+  color: white;
+  background-color: black;
+}
+
+.section-maskinpark {
+  background-color: white;
+}
+
+.section-om-sydschakt {
+  background-color: yellow;
+} */
+
+.section-footer {
+  height: 173px;
+}
+
+.section-ledord {
+  color: white;
+  height: 300px;
+  padding: 4rem;
+  text-align: center;
+  background-image: url("../img/bigtruck-1024x731.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+
+.white {
+  background-color: white;
+  color: black;
+}
+
+.black {
+  background-color: black;
+  color: white;
+}
+
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+
+.text-bottom {
+  position: relative;
+  bottom: 10px;
+}
