@@ -1,5 +1,5 @@
 body {
-  min-width: 200px;
+  display: grid;
 }
 
 h1,
@@ -10,107 +10,80 @@ h4 {
   font-weight: 700;
 }
 
-/* Page sections */
+#uthyrning {
+  background-image: url("/img/backgrounds/bakgrund5.jpg");
+  background-size: cover;
+}
 
-/*
-.section-ledord {
-  display: inline-flex;
+#rivning {
+  background-image: url("/img/backgrounds/rivning.jpg");
+  background-size: cover;
+}
+
+#maskinpark {
+  background-image: url("/img/backgrounds/bakgrund4.jpg");
+  background-size: cover;
+}
+
+#snöröjning {
+  background-image: url("/img/backgrounds/bakgrund7.jpg");
+  background-size: cover;
+}
+
+#blimedlem {
+  background-image: url("/img/backgrounds/bakgrund2.jpg");
+  background-size: cover;
+}
+
+#referenser {
+  background-image: url("/img/backgrounds/bakgrund3.jpg");
+  background-size: cover;
+}
+
+.intro,
+.areas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.areas .box-item {
+  margin: 1rem;
   color: white;
-  height: 300px;
+}
+
+.box-item {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 400px;
+  padding: 2rem;
+  align-content: space-between;
+}
+
+.box-item2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 2 1 500px;
+  padding: 2rem;
+  margin: 0.5rem;
+  align-content: space-between;
+}
+
+.ledord {
+  background-image: url("/img/bigtruck-1024x731.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 4rem;
   text-align: center;
-  background-image: url("/img/bigtruck-1024x731.jpg");
-  background-size: 100%;
-  background-position: center;
-} */
-
-#page {
-  display: grid;
-  grid-template-areas:
-    "nav"
-    "head"
-    "presentation"
-    "ledord"
-    "pitch"
-    "areas"
-    "socialt"
-    "kontakt"
-    "footer";
-
-  width: 100%;
-  min-height: 1200px;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 50px 400px 200px 300px 300px 300px 100px 100px 50px;
-}
-
-#page > nav {
-  grid-area: 1 / 1 / span 1 / span 12;
-
-  z-index: 100;
-}
-
-#page > huvud {
-  grid-area: 1 / 1 / span 2 / span 12;
-  background-image: url("/img/250974631_368451074911177_8453212711483134322_n.jpg");
-  background-color: green;
-}
-
-#page > presentation {
-  grid-area: 3 / 1 / span 1 / span 12;
-  background-color: yellow;
-}
-
-#page > ledord {
-  grid-area: 4 / 1 / span 1 / span 12;
-  background-color: blue;
-}
-
-.nav {
-  background-color: brown;
-}
-
-.crumbs ol {
-  list-style-type: none;
-  padding-top: 10px;
-  padding-left: 10px;
-}
-
-.crumb {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 600;
-  padding-left: 20px;
-}
-
-/* .top-section-left {
-  height: 660px;
-  padding: 2rem;
-  background-image: url(/img/hero-mobile2-1024x731.jpg);
-  background-size: 100%;
-  background-position: center;
-}
-
-.topsection-right {
-  height: 330px;
-}
-
-*/
-
-/* .section-medlemmar {
   color: white;
-  background-color: black;
 }
 
-.section-maskinpark {
-  background-color: white;
+.ledord > h5 {
+  margin-top: 2%;
 }
 
-.section-om-sydschakt {
-  background-color: yellow;
-} */
-
-.section-footer {
-  height: 173px;
+.ledord > h3 {
+  margin-top: 3%;
 }
 
 .white {
@@ -126,20 +99,4 @@ h4 {
 .yellow {
   background-color: yellow;
   color: black;
-}
-
-.text-bottom {
-  position: relative;
-  bottom: 10px;
-}
-@media screen and (max-width: 480px) {
-  .top-section-left {
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 820px) {
-  .top-section-left {
-    height: 400px;
-  }
 }
