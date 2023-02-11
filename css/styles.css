@@ -11,32 +11,32 @@ h4 {
 }
 
 #uthyrning {
-  background-image: url("/img/backgrounds/bakgrund5.jpg");
+  background-image: url("./img/backgrounds/bakgrund5.jpg");
   background-size: cover;
 }
 
 #rivning {
-  background-image: url("/img/backgrounds/rivning.jpg");
+  background-image: url("./img/backgrounds/rivning.jpg");
   background-size: cover;
 }
 
 #maskinpark {
-  background-image: url("/img/backgrounds/bakgrund4.jpg");
+  background-image: url("./img/backgrounds/bakgrund4.jpg");
   background-size: cover;
 }
 
 #snöröjning {
-  background-image: url("/img/backgrounds/bakgrund7.jpg");
+  background-image: url("./img/backgrounds/bakgrund7.jpg");
   background-size: cover;
 }
 
 #blimedlem {
-  background-image: url("/img/backgrounds/bakgrund2.jpg");
+  background-image: url("./img/backgrounds/bakgrund2.jpg");
   background-size: cover;
 }
 
 #referenser {
-  background-image: url("/img/backgrounds/bakgrund3.jpg");
+  background-image: url("./img/backgrounds/bakgrund3.jpg");
   background-size: cover;
 }
 
@@ -69,7 +69,7 @@ h4 {
 }
 
 .ledord {
-  background-image: url("/img/bigtruck-1024x731.jpg");
+  background-image: url("./img/bigtruck-1024x731.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
