@@ -10,6 +10,18 @@
     <title>Sydschakt | Uthyrning av entreprenadmaskiner</title>
     <meta name="description" content="" />
 
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#footerSection").load("footerSection.html");
+      });
+    </script>
+
     <!-- Bootstrap 5 -->
 
     <link
@@ -96,7 +108,9 @@
         <div>
           <p>
             Sök enhet&emsp;
-            <img src="../img/arrow-right-black.png" />
+            <a href="kontakt.html">
+              <img src="../img/arrow-right-black.png" />
+            </a>
           </p>
         </div>
       </div>
@@ -282,6 +296,10 @@
         <h2>SYDSCHAKT</h2>
         <h4>Uthyrning av entreprenadmaskiner</h4>
       </div>
+    </footer>
+
+    <footer id="footerSection">
+      <p>hello world</p>
     </footer>
 
     <script src="" async defer></script>

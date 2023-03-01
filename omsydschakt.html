@@ -10,7 +10,25 @@
     <title>Om Sydschakt</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.js"
+      integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM="
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $(function () {
+        $("#headerSection").load("HeaderSection.html");
+      });
+    </script>
+
+    <script>
+      $(function () {
+        $("#footerSection").load("footerSection.html");
+      });
+    </script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -19,6 +37,9 @@
         <a href="#">upgrade your browser</a> to improve your experience.
       </p>
     <![endif]-->
+
+    <div id="headerSection"></div>
+    <div id="footerSection"></div>
 
     <script src="" async defer></script>
   </body>
